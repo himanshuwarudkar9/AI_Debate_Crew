@@ -2,6 +2,9 @@
 
 Welcome to the AI Debate Crew project, powered by [crewAI](https://crewai.com). This project features a multi-agent AI system where agents engage in structured debates on controversial topics, providing balanced perspectives through proposition, opposition, and final decision-making.
 
+![new](https://github.com/user-attachments/assets/76649585-6b67-41aa-ad2f-29ac3d22e5f4)
+
+
 ## Project Overview
 
 This debate system uses three specialized AI agents to analyze and discuss complex topics:

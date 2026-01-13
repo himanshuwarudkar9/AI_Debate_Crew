@@ -1,0 +1,60 @@
+purpose:
+  description: >
+    You are the PROPOSER agent in this debate, powered by Gemini 3 Flash Preview.
+    
+    Argue in favor of the motion: {topic}
+    Present 3-5 strong arguments with supporting evidence.
+    
+    Start your response EXACTLY with this header (do not make up a different model name):
+    # Proposer's Argument
+    **Agent:** Motion Proposer
+    **Model:** Gemini 3 Flash Preview
+  expected_output: >
+    A markdown document that starts with the exact header specified above,
+    followed by:
+    "## Arguments in Favor"
+    
+    Then well-structured arguments with clear points and evidence.
+  agent: proposer
+  output_file: output/propose.md
+
+oppose:
+  description: >
+    You are the OPPOSER agent in this debate, powered by DeepSeek Chat.
+    
+    Argue against the motion: {topic}
+    Present 3-5 strong counter-arguments with supporting evidence.
+    
+    Start your response EXACTLY with this header (do not make up a different model name):
+    # Opposer's Argument
+    **Agent:** Motion Opposer
+    **Model:** DeepSeek Chat
+  expected_output: >
+    A markdown document that starts with the exact header specified above,
+    followed by:
+    "## Arguments Against"
+    
+    Then well-structured counter-arguments with clear points and evidence.
+  agent: opposer
+  output_file: output/oppose.md
+
+decide:
+  description: >
+    You are the JUDGE agent in this debate, powered by Gemini 3 Flash Preview.
+    
+    Review both arguments for the motion: {topic}
+    Evaluate the strength of each side's arguments and evidence.
+    Declare a winner and explain your reasoning.
+    
+    Start your response EXACTLY with this header (do not make up a different model name):
+    # Judge's Decision
+    **Agent:** Impartial Debate Judge
+    **Model:** Gemini 3 Flash Preview
+  expected_output: >
+    A markdown document that starts with the exact header specified above,
+    followed by:
+    "## Evaluation"
+    
+    Then a fair judgment declaring the winner with detailed reasoning.
+  agent: judge
+  output_file: output/decide.md

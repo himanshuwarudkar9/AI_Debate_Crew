@@ -1,3 +1,5 @@
+## Arguments in Oppose
+
 The motion—that AI will replace human creativity within the next decade—rests on a fundamental misunderstanding of what creativity is. It reduces art to "content," expression to "output," and the human experience to "data points." While AI is undoubtedly a revolutionary tool for synthesis and efficiency, it lacks the agency, intentionality, and social context that define true creativity. 
 
 I present the following four counter-arguments to demonstrate that human creativity is not only irreplaceable but will become more vital as AI proliferates.
